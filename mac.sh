@@ -12,12 +12,14 @@ echo "Updating homebrew..."
 brew update
 
 # Install formulae
-echo "Installing formulae..."
-PACKAGES=(
-    bash
-    git
-)
-brew install ${PACKAGES[@]}
+# echo "Installing formulae..."
+# PACKAGES=(
+#     bash
+#     git
+# )
+# brew install ${PACKAGES[@]}
+echo "Installing git..."
+brew install git
 
 # Install casks
 # echo "Installing casks..."
